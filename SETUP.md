@@ -9,8 +9,8 @@ activate them in other projects or change either tool's local configuration.
 | File or directory | Responsibility | Status |
 | --- | --- | --- |
 | DESIGN.md | Freewrite/Capsule visual standard | Written |
-| AGENTS.md | Shared working preferences and instructions | To write together |
-| CLAUDE.md | Import AGENTS.md; add only necessary Claude-specific instructions | Planned |
+| AGENTS.md | Established shared preferences and AI repository instructions | Written; working style decisions pending |
+| CLAUDE.md | Import AGENTS.md; add only necessary Claude-specific instructions | Written |
 | skills/gtfol-design/ | Shared design implementation and review workflow | Written; adoption pending |
 | codex/ | Codex-specific configuration templates | Add when needed |
 | claude/ | Claude Code configuration templates | Add when needed |
@@ -20,7 +20,7 @@ Keep planned directories absent until they contain something useful. No global
 instruction files, settings, skills, or connections have been installed as part
 of this setup.
 
-When AGENTS.md is ready, Claude's entry point can begin with:
+Claude's entry point contains:
 
 ```markdown
 @AGENTS.md
@@ -29,8 +29,19 @@ When AGENTS.md is ready, Claude's entry point can begin with:
 Claude Code documents this import specifically for sharing instructions with
 other agents. Avoid maintaining two copies of the same working preferences.
 
-The AI repository's AGENTS.md will also apply to work in this repository; write
-it as real instructions, not a placeholder or an installation script.
+AGENTS.md also applies to work in this repository. It contains the existing
+master preferences on commits, persistent preferences, ignored files, and sound
+notifications, followed by a clearly scoped AI repository section. Global
+adoption must separate those repository-specific instructions from the shared
+preferences rather than copying the entire file blindly.
+
+Allen's chosen working style: check the plan before implementing substantial
+changes, then carry out the approved plan without repeated confirmation.
+
+Still to decide together: preferred communication detail and the expected
+verification before calling work done.
+These are discussion items, not active instructions. Existing tool-level and
+project-level requirements continue to apply.
 
 ## Build it in this order
 

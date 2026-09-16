@@ -8,22 +8,23 @@ tool-specific configuration only where necessary. See [SETUP.md](SETUP.md) for t
 setup sequence and adoption plan.
 
 Start with [DESIGN.md](DESIGN.md), based on the Freewrite and Capsule interfaces.
-This repository stores reference material; it does not automatically change any
-agent's configuration.
+AGENTS.md and CLAUDE.md apply when an agent works in this repository. They do not
+automatically change global settings or instructions in other projects.
 
-## Planned layout
+## Contents and planned additions
 
 | Path | Purpose |
 | --- | --- |
 | DESIGN.md | Shared interface design standard |
-| AGENTS.md | Shared agent instructions, to be written later |
+| AGENTS.md | Established shared preferences and AI repository instructions |
 | CLAUDE.md | Import shared AGENTS.md, add Claude-specific guidance only if needed |
 | skills/gtfol-design/ | Shared interface design and review skill |
 | mcp/ | MCP configuration templates |
 | agents/ | Agent configuration templates |
 
-The design standard and [gtfol-design skill](skills/gtfol-design/SKILL.md) are
-written. The skill includes a portable copy of the design standard, generated
+The shared instructions, design standard, and
+[gtfol-design skill](skills/gtfol-design/SKILL.md) are written. The skill includes
+a portable copy of the design standard, generated
 from the root file. After editing DESIGN.md, run:
 
 ```sh
