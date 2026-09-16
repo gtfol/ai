@@ -1,0 +1,21 @@
+AGENTS.md
+  s_3390f6f0b992d5::t_9c2c3ca339d884 24-30
+SETUP.md
+  s_3390f6f0b992d5::t_9c2c3ca339d884 12,43-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "957c9f6e34dc60f43bdf9a033e71afeb8a18dd8b",
+  "prompts": {},
+  "sessions": {
+    "s_3390f6f0b992d5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07e6a-e627-7b52-9ea8-102d99bfed48",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Allen Lin <allenlinsh@gmail.com>"
+    }
+  }
+}
