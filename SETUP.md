@@ -11,7 +11,7 @@ activate them in other projects or change either tool's local configuration.
 | DESIGN.md | Freewrite/Capsule visual standard | Written |
 | AGENTS.md | Shared working preferences and instructions | To write together |
 | CLAUDE.md | Import AGENTS.md; add only necessary Claude-specific instructions | Planned |
-| skills/ | Portable workflows with SKILL.md entry points | Planned |
+| skills/gtfol-design/ | Shared design implementation and review workflow | Written; adoption pending |
 | codex/ | Codex-specific configuration templates | Add when needed |
 | claude/ | Claude Code configuration templates | Add when needed |
 | mcp/ | Tool connection templates with environment references | Add when needed |
@@ -63,9 +63,11 @@ format and keep tool-specific extensions out of the common entry point.
 | This user's machine | ~/.agents/skills/<name>/ | ~/.claude/skills/<name>/ |
 
 Installation must include the skill's referenced resources, including the design
-standard when required. A copied skill must not depend on a path that exists only
-inside this source checkout. Choose a packaging approach when implementing the
-skill; do not maintain independently edited copies of DESIGN.md.
+standard when required. The gtfol-design skill bundles a generated copy of the
+root DESIGN.md under references/. Run `python3 scripts/sync_design.py` after
+editing the root standard and `python3 scripts/sync_design.py --check` before
+distribution. Copy the entire skill directory. It does not require access to the
+source checkout or the private GitHub repository at runtime.
 
 Start with project scope. User-wide installation is a separate adoption step;
 it can affect other projects and needs a review of existing settings first.
