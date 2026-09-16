@@ -33,8 +33,10 @@ python3 scripts/sync_design.py --check
 ```
 
 Do not edit the generated copy independently. To adopt the skill, distribute its
-whole directory, including references. It has not yet been installed or exercised
-in a real UI task with both tools; see [SETUP.md](SETUP.md).
+whole directory, including references. An [isolated UI trial](evaluations/2026-09-16-design-skill.md)
+passed with Codex plus independent browser review. Claude Code discovered the
+skill but could not run because of provider/model access. Broader installation
+remains pending; see [SETUP.md](SETUP.md).
 
 Add remaining configuration deliberately as requirements are decided. Store
 placeholders or environment variable references, never live tokens or private keys.

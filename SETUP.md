@@ -94,5 +94,7 @@ Documentation checked on 2026-09-16:
 - [Claude Code AGENTS.md imports](https://code.claude.com/docs/en/memory#agentsmd)
 - [Emil Kowalski's design engineering skills](https://emilkowal.ski/skill)
 
-Installation and discovery paths above describe documented support. Neither
-tool's skill loading has been tested against this repository yet.
+An [isolated simulator UI trial](evaluations/2026-09-16-design-skill.md) exercised
+the skill with Codex and independently verified its result in a browser. Claude
+Code discovered the local skill, but provider/model access blocked its run.
+Cross-tool behavior and user-wide adoption remain pending.
