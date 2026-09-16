@@ -1,0 +1,31 @@
+README.md
+  s_3390f6f0b992d5::t_ec541a6a5f5f8e 21,25-39
+scripts/sync_design.py
+  s_3390f6f0b992d5::t_ec541a6a5f5f8e 1-33
+skills/gtfol-design/references/motion.md
+  s_3390f6f0b992d5::t_ec541a6a5f5f8e 1-43
+skills/gtfol-design/SKILL.md
+  s_3390f6f0b992d5::t_ec541a6a5f5f8e 1-61
+skills/gtfol-design/references/attribution.md
+  s_3390f6f0b992d5::t_ec541a6a5f5f8e 1-38
+SETUP.md
+  s_3390f6f0b992d5::t_ec541a6a5f5f8e 14,66-70
+skills/gtfol-design/references/design-standard.md
+  s_3390f6f0b992d5::t_8ffa492dc308e0 1-133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0f5e8d2b6b0b3250e6c8f407d919928756f6ea32",
+  "prompts": {},
+  "sessions": {
+    "s_3390f6f0b992d5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07e6a-e627-7b52-9ea8-102d99bfed48",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Allen Lin <allenlinsh@gmail.com>"
+    }
+  }
+}
