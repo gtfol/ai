@@ -9,7 +9,7 @@ activate them in other projects or change either tool's local configuration.
 | File or directory | Responsibility | Status |
 | --- | --- | --- |
 | DESIGN.md | Freewrite/Capsule visual standard | Written |
-| AGENTS.md | Established shared preferences and AI repository instructions | Written; working style decisions pending |
+| AGENTS.md | Established shared preferences and AI repository instructions | Written; initial working preferences agreed |
 | CLAUDE.md | Import AGENTS.md; add only necessary Claude-specific instructions | Written |
 | skills/gtfol-design/ | Shared design implementation and review workflow | Written; adoption pending |
 | codex/ | Codex-specific configuration templates | Add when needed |
@@ -40,9 +40,10 @@ changes, then carry out the approved plan without repeated confirmation.
 
 Communication preference: brief progress updates and concise results.
 
-Still to decide together: the expected verification before calling work done.
-These are discussion items, not active instructions. Existing tool-level and
-project-level requirements continue to apply.
+Verification preference: relevant tests for code changes, rendered checks for UI
+changes, and a clear statement of anything unverified. These working preferences
+are recorded in AGENTS.md. Existing tool-level and project-level requirements
+continue to apply.
 
 ## Build it in this order
 

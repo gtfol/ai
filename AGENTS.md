@@ -21,6 +21,13 @@ progress, decisions, or blockers. Lead final responses with the outcome and
 include relevant verification or limitations. Expand when Allen asks for detail
 or needs it to make a decision.
 
+## Verification
+
+Run relevant tests for code changes and inspect the rendered result for UI
+changes. Exercise the affected behavior, with checks proportional to the change.
+Clearly state what was verified and anything that remains unverified. Do not
+present a passing build or source inspection as proof of working UI behavior.
+
 ## Commits
 
 - Never include "Generated with Codex" or similar agent attribution in commit
