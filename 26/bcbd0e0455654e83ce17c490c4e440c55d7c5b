@@ -1,0 +1,27 @@
+CLAUDE.md
+  s_3390f6f0b992d5::t_5204d28d198be0 1
+AGENTS.md
+  s_3390f6f0b992d5::t_5204d28d198be0 1-6,17-60
+  s_3390f6f0b992d5::t_1ff7818aa548a0 7-16
+README.md
+  s_3390f6f0b992d5::t_5204d28d198be0 11-12,14,19,25-27
+SETUP.md
+  s_3390f6f0b992d5::t_5204d28d198be0 12-13,23,32-37,43-44
+  s_3390f6f0b992d5::t_1ff7818aa548a0 38-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "26bcbd0e0455654e83ce17c490c4e440c55d7c5b",
+  "prompts": {},
+  "sessions": {
+    "s_3390f6f0b992d5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07e6a-e627-7b52-9ea8-102d99bfed48",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Allen Lin <allenlinsh@gmail.com>"
+    }
+  }
+}
