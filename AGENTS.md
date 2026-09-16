@@ -14,6 +14,13 @@ Keep routine, contained edits proportional rather than introducing a planning
 gate for every small change. Approval of a plan does not override the explicit
 permission requirement for ignored files below.
 
+## Communication
+
+Give brief progress updates and concise results. Focus updates on meaningful
+progress, decisions, or blockers. Lead final responses with the outcome and
+include relevant verification or limitations. Expand when Allen asks for detail
+or needs it to make a decision.
+
 ## Commits
 
 - Never include "Generated with Codex" or similar agent attribution in commit

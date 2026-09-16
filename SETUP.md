@@ -38,8 +38,9 @@ preferences rather than copying the entire file blindly.
 Allen's chosen working style: check the plan before implementing substantial
 changes, then carry out the approved plan without repeated confirmation.
 
-Still to decide together: preferred communication detail and the expected
-verification before calling work done.
+Communication preference: brief progress updates and concise results.
+
+Still to decide together: the expected verification before calling work done.
 These are discussion items, not active instructions. Existing tool-level and
 project-level requirements continue to apply.
 
