@@ -21,6 +21,17 @@ progress, decisions, or blockers. Lead final responses with the outcome and
 include relevant verification or limitations. Expand when Allen asks for detail
 or needs it to make a decision.
 
+## Service dashboards
+
+For authorized work, manage Supabase, Apple Developer, and App Store Connect
+directly using available computer-use tools and signed-in sessions. Confirm the
+correct account, project, and app before making changes. Carry out routine
+dashboard steps within the agreed scope instead of handing them back to Allen.
+Ask Allen when login, MFA, a required approval, or a change outside that scope
+prevents progress. Verify that changes were saved and report any remaining block.
+Never expose credentials or store them in instructions, source, or logs. These
+instructions do not bypass tool permissions or the ignored-file rule below.
+
 ## Verification
 
 Run relevant tests for code changes and inspect the rendered result for UI
