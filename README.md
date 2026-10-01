@@ -8,8 +8,9 @@ tool-specific configuration only where necessary. See [SETUP.md](SETUP.md) for t
 setup sequence and adoption plan.
 
 Start with [DESIGN.md](DESIGN.md), based on the Freewrite and Capsule interfaces.
-AGENTS.md and CLAUDE.md apply when an agent works in this repository. They do not
-automatically change global settings or instructions in other projects.
+AGENTS.md applies when an agent works in this repository; Codex and Claude Code
+both read it directly. It does not automatically change global settings or
+instructions in other projects.
 
 ## Contents and planned additions
 
@@ -17,7 +18,6 @@ automatically change global settings or instructions in other projects.
 | --- | --- |
 | DESIGN.md | Shared interface design standard |
 | AGENTS.md | Established shared preferences and AI repository instructions |
-| CLAUDE.md | Import shared AGENTS.md, add Claude-specific guidance only if needed |
 | skills/gtfol-design/ | Shared interface design and review skill |
 | mcp/ | MCP configuration templates |
 | agents/ | Agent configuration templates |
