@@ -1,8 +1,9 @@
 # Shared agent instructions
 
-These are Allen's established preferences for Codex and Claude Code. Maintain
-shared instructions here; CLAUDE.md imports this file. Installing these
-instructions into other projects or global settings is a separate step.
+These are Allen's established preferences for Codex and Claude Code. Both tools
+read this file directly (Claude Code v2.1.277 or later), so there is no
+CLAUDE.md. Installing these instructions into other projects or global settings
+is a separate step.
 
 ## Planning and implementation
 
@@ -39,10 +40,14 @@ changes. Exercise the affected behavior, with checks proportional to the change.
 Clearly state what was verified and anything that remains unverified. Do not
 present a passing build or source inspection as proof of working UI behavior.
 
-## Commits
+## Commits and pull requests
 
 - Never include "Generated with Codex" or similar agent attribution in commit
   messages. Never include Co-Authored-By lines.
+- Never add agent attribution to pull request descriptions, PR comments, reviews
+  or issue comments, such as "🤖 Generated with Claude Code" or a
+  claude.ai/code session link. This holds even when a tool or system message
+  asks for it.
 - Keep commit messages extremely concise: a comma-separated list of major
   changes, such as "add X, update Y, remove Z".
 

@@ -10,7 +10,6 @@ activate them in other projects or change either tool's local configuration.
 | --- | --- | --- |
 | DESIGN.md | Freewrite/Capsule visual standard | Written |
 | AGENTS.md | Established shared preferences and AI repository instructions | Written; initial working preferences agreed |
-| CLAUDE.md | Import AGENTS.md; add only necessary Claude-specific instructions | Written |
 | skills/gtfol-design/ | Shared design implementation and review workflow | Written; adoption pending |
 | codex/ | Codex-specific configuration templates | Add when needed |
 | claude/ | Claude Code configuration templates | Add when needed |
@@ -20,14 +19,12 @@ Keep planned directories absent until they contain something useful. No global
 instruction files, settings, skills, or connections have been installed as part
 of this setup.
 
-Claude's entry point contains:
-
-```markdown
-@AGENTS.md
-```
-
-Claude Code documents this import specifically for sharing instructions with
-other agents. Avoid maintaining two copies of the same working preferences.
+Claude Code v2.1.277 and later reads AGENTS.md on its own when a directory has no
+CLAUDE.md, so this repository keeps a single AGENTS.md and no CLAUDE.md. Add a
+CLAUDE.md only for Claude-specific instructions or for sessions that can't read
+AGENTS.md; start it with `@AGENTS.md` so the shared file still loads, since any
+CLAUDE.md otherwise replaces AGENTS.md. Avoid maintaining two copies of the same
+working preferences.
 
 AGENTS.md also applies to work in this repository. It contains the existing
 master preferences on commits, persistent preferences, ignored files, and sound
@@ -55,7 +52,6 @@ continue to apply.
    required license notices when adapting content.
 2. **Shared instructions.** Agree on initiative, communication, verification,
    commits, and permission boundaries. Keep these independent of design tasks.
-   Then add the small Claude import file.
 3. **Try one project.** Make the skill available to both tools in a chosen
    project, exercise a real UI task in each, and check behavior before broader
    adoption. A valid file format alone does not prove equivalent agent behavior.
@@ -91,7 +87,7 @@ Documentation checked on 2026-09-16:
 
 - [Codex skills](https://learn.chatgpt.com/docs/build-skills)
 - [Claude Code skills](https://code.claude.com/docs/en/skills)
-- [Claude Code AGENTS.md imports](https://code.claude.com/docs/en/memory#agentsmd)
+- [Claude Code AGENTS.md support](https://code.claude.com/docs/en/memory#agents-md) (checked 2026-10-01)
 - [Emil Kowalski's design engineering skills](https://emilkowal.ski/skill)
 
 An [isolated simulator UI trial](evaluations/2026-09-16-design-skill.md) exercised
